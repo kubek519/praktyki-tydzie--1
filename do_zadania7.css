@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  img {
+    height: 500px;
+    width: auto;
+  }
+
+  .album {
+    width: 100%; 
+    height: auto; 
+    white-space: nowrap; 
+    
+    background-color: #f0f0f0;
+    text-align: center;
+  }
+
+  .sekcja {
+    overflow-x: scroll;
+    overflow-y: hidden; 
+    text-align: justify;
+ 
+  }
+
+img:hover {
+  background-color: #f5eeeee1;
+}
+  

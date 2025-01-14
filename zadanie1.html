@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Podatkowy</title>
+    <link rel="stylesheet" href="do_zadania1.css">
+</head>
+<body>
+    <div class="kalkulator">
+        <h1>Kalkulator Podatkowy</h1>
+
+        <div class="kontener">
+            <label for="amount">Wartość wynagrodzenia (brutto lub netto):</label>
+            <input type="number" id="amount" placeholder="Wprowadź kwotę" />
+        </div>
+
+        <div class="kontener">
+            <label for="taxRate">Wybierz stawkę podatkową (%):</label>
+            <input type="number" id="taxRate" placeholder="Wprowadź stawkę podatkową" />
+        </div>
+
+        <div class="przycisk">
+            <label for="isNet">Obliczaj netto:</label>
+            <input type="radio" name="calcType" id="isNet" checked /> 
+            <label for="isGross">Obliczaj brutto:</label>
+            <input type="radio" name="calcType" id="isGross" />
+        </div>
+
+        <div class="wynik">
+            <h2>Wyniki:</h2>
+            <p id="resultNet">Wynagrodzenie netto: </p>
+            <p id="resultGross">Wynagrodzenie brutto: </p>
+        </div>
+
+        <button id="calculateBtn">Oblicz</button>
+    </div>
+
+    
+        <a href="zadanie3.html">
+            <button class="powrot">⬅️Powrót</button>
+        </a>
+   
+    <script src="js1.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,93 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #C7FFED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.kalkulator {
+    background-color: #D8FFDB;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #023535;
+    margin-bottom: 20px;
+}
+
+.kontener {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.przycisk {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.przycisk label {
+    font-size: 14px;
+    margin-right: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #008F8C;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #015958;
+}
+
+.wynik {
+    margin-top: 20px;
+}
+
+#resultNet, #resultGross {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.powrot {
+  height: fit-content;
+  width: fit-content;
+  margin-top: 430px;
+  margin-left: 20px;
+}
+

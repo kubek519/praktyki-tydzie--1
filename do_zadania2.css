@@ -1,0 +1,95 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #747E7E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.kalkulator {
+    background-color: #3F7C85;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+h1 {
+    color: #00CCBF;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #00CCBF;
+}
+
+p {
+    color: #00CCBF;
+}
+
+.input-kontener {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #00CCBF;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #747E7E;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #FF5F5D;
+}
+
+.wynik {
+    margin-top: 20px;
+}
+
+#commissionResult, #totalIncome {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.powrot {
+    height: fit-content;
+    width: fit-content;
+    margin-top: 390px;
+    margin-left: 20px;
+    background-color: #FF5F5D;
+}
+
+.powrot:hover {
+    background-color: #72F2EB;
+}

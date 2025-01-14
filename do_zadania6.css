@@ -1,0 +1,39 @@
+
+
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+
+.container {
+    text-align: center;
+}
+
+
+.vaporeon {
+    display: inline-block;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.vaporeon img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.vaporeon img:hover {
+    transform: scale(1.1); 
+}
+
+
+

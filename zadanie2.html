@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Prowizyjny</title>
+    <link rel="stylesheet" href="do_zadania2.css">
+</head>
+<body>
+
+    <div class="kalkulator">
+        <h1>Kalkulator Prowizyjny dla Sprzedawcy</h1>
+
+        <div class="input-kontener">
+            <label for="salesValue">Wartość sprzedaży (PLN):</label>
+            <input type="number" id="salesValue" placeholder="Wprowadź wartość sprzedaży" />
+        </div>
+
+        <div class="input-kontener">
+            <label for="profitMargin">Marża (%) :</label>
+            <input type="number" id="profitMargin" placeholder="Wprowadź procent marży" />
+        </div>
+
+        <button id="calculateBtn">Oblicz Prowizję</button>
+
+        <div class="wynik">
+            <h2>Wynik:</h2>
+            <p id="commissionResult">Prowizja: </p>
+            <p id="totalIncome">Kasa dla sprzedawcy: </p>
+        </div>
+    </div>
+        <a href="zadanie3.html">
+            <button class="powrot">⬅️Powrót</button>
+        </a>
+
+    <script src="js2.js"></script>
+</body>
+</html>

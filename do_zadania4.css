@@ -1,0 +1,102 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #F2F2F2;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.animacja {
+    background-color: #038C73; 
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 50px 0;
+    position: relative;
+}
+
+
+.text-animowany {
+    font-size: 36px;
+    animation: fadeIn 3s ease-out;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.katalog {
+    width: 80%;
+    max-width: 1200px;
+    margin: 40px 0;
+    text-align: center;
+}
+
+
+.katalog h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+
+.produkty {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+    justify-items: center;
+}
+
+
+.prdukt {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    transition: transform 0.3s ease;
+}
+
+
+.prdukt:hover {
+    transform: translateY(-10px);
+}
+
+
+.prdukt img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+
+.prdukt h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.prdukt p {
+    font-size: 14px;
+    color: #011F26;
+}
+
+h1 {
+    color: #011F26;
+}
